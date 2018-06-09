@@ -1,0 +1,16 @@
+PODS:
+  - AXAListView (0.1.0)
+
+DEPENDENCIES:
+  - AXAListView (from `../`)
+
+EXTERNAL SOURCES:
+  AXAListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AXAListView: b1834cfed898ab5f33feece9f5b960e77c2452d1
+
+PODFILE CHECKSUM: 4abbdcc12bd03dab897718fb3890e0d0401f3857
+
+COCOAPODS: 1.5.3

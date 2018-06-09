@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AXAListView_Example' do
+  pod 'AXAListView', :path => '../'
+
+  target 'AXAListView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,22 +1,25 @@
 {
   "name": "AXAListView",
   "version": "0.1.0",
-  "summary": "A short description of AXAListView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/AldoOS/AXAListView",
+  "summary": "A simple and convenient UIStackView subclass to create lists dynamically from code.",
+  "description": "AXAListView is an object that inherit UIStackView. You only have to install it once and",
+  "homepage": "https://github.com/HaraldBregu/AXAListView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "AldoOS": "harald.bregu@gmail.com"
+    "Harald Bregu": "harald.bregu@gmail.com"
   },
   "source": {
-    "git": "https://github.com/AldoOS/AXAListView.git",
+    "git": "https://github.com/HaraldBregu/AXAListView.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/HaraldBregu",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AXAListView/Classes/**/*"
+  "source_files": "AXAListView/Classes/**/*",
+  "swift_version": "3.0",
+  "frameworks": "UIKit"
 }

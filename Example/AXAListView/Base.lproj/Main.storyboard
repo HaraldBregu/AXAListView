@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Gcc-Qb-4DY">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="1dS-xL-AG3">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AXAListView_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="Gcc-Qb-4DY" customClass="ViewController" customModule="AXAListView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1KZ-A3-0On">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rm1-rB-1VW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfA-QO-7le" customClass="AXAListView" customModule="AXAListView_Example" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                                        <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="OuX-Nw-Hn6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.28627450980000002" green="0.30196078430000001" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="DfA-QO-7le" firstAttribute="leading" secondItem="Rm1-rB-1VW" secondAttribute="leading" id="5Yr-Dt-2Kh"/>
+                                    <constraint firstAttribute="trailing" secondItem="DfA-QO-7le" secondAttribute="trailing" id="a6u-nJ-HwV"/>
+                                    <constraint firstAttribute="bottom" secondItem="DfA-QO-7le" secondAttribute="bottom" id="s8Y-pg-rhV"/>
+                                    <constraint firstItem="DfA-QO-7le" firstAttribute="top" secondItem="Rm1-rB-1VW" secondAttribute="top" id="wB0-Mf-2D0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DfA-QO-7le" firstAttribute="width" secondItem="1KZ-A3-0On" secondAttribute="width" id="IAr-vx-0zP"/>
+                            <constraint firstItem="Rm1-rB-1VW" firstAttribute="bottom" secondItem="OPU-Xc-YZM" secondAttribute="bottom" id="aYF-7A-cKg"/>
+                            <constraint firstItem="Rm1-rB-1VW" firstAttribute="top" secondItem="1KZ-A3-0On" secondAttribute="top" id="lDb-Su-AMD"/>
+                            <constraint firstItem="Rm1-rB-1VW" firstAttribute="leading" secondItem="1KZ-A3-0On" secondAttribute="leading" id="rkZ-XO-Ihl"/>
+                            <constraint firstAttribute="trailing" secondItem="Rm1-rB-1VW" secondAttribute="trailing" id="vmp-Pe-2NR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OPU-Xc-YZM"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gI7-YL-RsJ" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-801" y="28"/>
         </scene>
     </scenes>
 </document>

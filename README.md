@@ -31,9 +31,9 @@ pod 'AXAListView'
 ```
 ```swift
 listView.reloadData(numberOfItems: { (listView) -> Int in
-return 13
+    return 13
 }) { (listView, index) -> UIView in
-return (index % 2 == 0) ? AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemOne") : AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemTwo")
+    return (index % 2 == 0) ? AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemOne") : AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemTwo")
 }
 ```
 

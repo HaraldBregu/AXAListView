@@ -14,8 +14,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6AEFE715859EAE6282555AA0 /* Pods_AXAListView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9645B59F2437FD982E1C9CCE /* Pods_AXAListView_Example.framework */; };
+		A92DD2A920CD180900ABE8F2 /* AXAListViewItemTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92DD2A820CD180900ABE8F2 /* AXAListViewItemTwo.xib */; };
 		A9CBC36320CC5F3000B7F63F /* AXAListViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC36220CC5F3000B7F63F /* AXAListViewItem.swift */; };
-		A9CBC36520CC5FD200B7F63F /* AXAListViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9CBC36420CC5FD200B7F63F /* AXAListViewItem.xib */; };
+		A9CBC36520CC5FD200B7F63F /* AXAListViewItemOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9CBC36420CC5FD200B7F63F /* AXAListViewItemOne.xib */; };
 		D0E8A29DB78AC51BCDDF823C /* Pods_AXAListView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE50854D16FD986B62F0C450 /* Pods_AXAListView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +45,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		90D636BABB6255F732089CBA /* Pods-AXAListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXAListView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXAListView_Example/Pods-AXAListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9645B59F2437FD982E1C9CCE /* Pods_AXAListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXAListView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92DD2A820CD180900ABE8F2 /* AXAListViewItemTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AXAListViewItemTwo.xib; sourceTree = "<group>"; };
 		A9CBC36220CC5F3000B7F63F /* AXAListViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXAListViewItem.swift; sourceTree = "<group>"; };
-		A9CBC36420CC5FD200B7F63F /* AXAListViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AXAListViewItem.xib; sourceTree = "<group>"; };
+		A9CBC36420CC5FD200B7F63F /* AXAListViewItemOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AXAListViewItemOne.xib; sourceTree = "<group>"; };
 		CBF3F7223AF1A89545ACB82D /* Pods-AXAListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXAListView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXAListView_Tests/Pods-AXAListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD30B8C473C9D7151677DF3D /* Pods-AXAListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXAListView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXAListView_Tests/Pods-AXAListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DD89F5AC1BDD9EF2D2570DB0 /* Pods-AXAListView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXAListView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXAListView_Example/Pods-AXAListView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,8 +99,7 @@
 		607FACD21AFB9204008FA782 /* Example for AXAListView */ = {
 			isa = PBXGroup;
 			children = (
-				A9CBC36220CC5F3000B7F63F /* AXAListViewItem.swift */,
-				A9CBC36420CC5FD200B7F63F /* AXAListViewItem.xib */,
+				A92DD2AA20CD1CF100ABE8F2 /* Items */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -154,6 +155,16 @@
 				CD30B8C473C9D7151677DF3D /* Pods-AXAListView_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A92DD2AA20CD1CF100ABE8F2 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				A9CBC36220CC5F3000B7F63F /* AXAListViewItem.swift */,
+				A9CBC36420CC5FD200B7F63F /* AXAListViewItemOne.xib */,
+				A92DD2A820CD180900ABE8F2 /* AXAListViewItemTwo.xib */,
+			);
+			name = Items;
 			sourceTree = "<group>";
 		};
 		DF5BAEEF21F3C3095BA24F94 /* Frameworks */ = {
@@ -252,7 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9CBC36520CC5FD200B7F63F /* AXAListViewItem.xib in Resources */,
+				A92DD2A920CD180900ABE8F2 /* AXAListViewItemTwo.xib in Resources */,
+				A9CBC36520CC5FD200B7F63F /* AXAListViewItemOne.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

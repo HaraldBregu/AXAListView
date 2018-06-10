@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="l1l-1J-RWf" customClass="AXAListViewItem" customModule="AXAListView_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="704" height="104"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="yqZ-lz-toZ">
+                    <rect key="frame" x="37" y="35" width="94" height="29"/>
+                </stepper>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="24p-EC-g5v">
+                    <rect key="frame" x="438" y="35" width="94" height="29"/>
+                </stepper>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="gAd-it-7Im">
+                    <rect key="frame" x="160" y="35" width="20" height="20"/>
+                </activityIndicatorView>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKZ-Vu-SDB">
+                    <rect key="frame" x="215" y="35" width="51" height="31"/>
+                </switch>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XM4-y1-jPK">
+                    <rect key="frame" x="295" y="42" width="97" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yqZ-lz-toZ" firstAttribute="top" secondItem="gAd-it-7Im" secondAttribute="top" id="4g4-NN-XhH"/>
+                <constraint firstItem="gAd-it-7Im" firstAttribute="leading" secondItem="yqZ-lz-toZ" secondAttribute="trailing" constant="29" id="6tR-qh-diN"/>
+                <constraint firstItem="M8t-Hi-NjJ" firstAttribute="trailing" secondItem="24p-EC-g5v" secondAttribute="trailing" constant="172" id="Ecs-h2-63K"/>
+                <constraint firstItem="XM4-y1-jPK" firstAttribute="top" secondItem="M8t-Hi-NjJ" secondAttribute="top" constant="42" id="MQX-71-R31"/>
+                <constraint firstItem="M8t-Hi-NjJ" firstAttribute="bottom" secondItem="yqZ-lz-toZ" secondAttribute="bottom" constant="40" id="NCe-dA-aBL"/>
+                <constraint firstItem="24p-EC-g5v" firstAttribute="leading" secondItem="XM4-y1-jPK" secondAttribute="trailing" constant="46" id="WJI-K3-8yx"/>
+                <constraint firstItem="XM4-y1-jPK" firstAttribute="leading" secondItem="dKZ-Vu-SDB" secondAttribute="trailing" constant="31" id="cIm-QZ-WBT"/>
+                <constraint firstItem="gAd-it-7Im" firstAttribute="top" secondItem="dKZ-Vu-SDB" secondAttribute="top" id="i9g-Uy-YjL"/>
+                <constraint firstItem="dKZ-Vu-SDB" firstAttribute="leading" secondItem="gAd-it-7Im" secondAttribute="trailing" constant="35" id="qzP-6l-tcO"/>
+                <constraint firstItem="yqZ-lz-toZ" firstAttribute="leading" secondItem="M8t-Hi-NjJ" secondAttribute="leading" constant="37" id="sMj-wJ-uGp"/>
+                <constraint firstItem="yqZ-lz-toZ" firstAttribute="top" secondItem="M8t-Hi-NjJ" secondAttribute="top" constant="35" id="vP7-SM-4lz"/>
+                <constraint firstItem="dKZ-Vu-SDB" firstAttribute="top" secondItem="24p-EC-g5v" secondAttribute="top" id="z1q-r9-a9a"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="M8t-Hi-NjJ"/>
+            <point key="canvasLocation" x="232" y="-244"/>
+        </view>
+    </objects>
+</document>

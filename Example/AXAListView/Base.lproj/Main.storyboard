@@ -21,11 +21,11 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rm1-rB-1VW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfA-QO-7le" customClass="AXAListView" customModule="AXAListView_Example" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfA-QO-7le" customClass="AXAListView" customModule="AXAListView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                                         <color key="backgroundColor" red="1" green="0.090196078430000007" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="OuX-Nw-Hn6"/>
+                                            <constraint firstAttribute="height" priority="200" constant="300" id="OuX-Nw-Hn6"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -48,6 +48,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OPU-Xc-YZM"/>
                     </view>
+                    <connections>
+                        <outlet property="listView" destination="DfA-QO-7le" id="dp7-aA-SS9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gI7-YL-RsJ" sceneMemberID="firstResponder"/>
             </objects>

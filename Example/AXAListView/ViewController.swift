@@ -8,34 +8,31 @@
 
 import UIKit
 import AXAListView
-//import HBView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AXAListViewDataSource {
     @IBOutlet weak var listView: AXAListView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // USING CLOSURES
+        listView.reloadData(numberOfItems: { (listView) -> Int in
+            return 13
+        }) { (listView, index) -> UIView in
+            return (index % 2 == 0) ? AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemOne") : AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemTwo")
+        }
         
-        let ff = AXAListViewItem.instatiateFromNib()
-        self.view.addSubview(ff)
-        
-        
-        
-        // Simple add new data 
-//        listView.reloadData(numberOfItems: { (listView) -> Int in
-//            return 1
-//        }) { (listView, index) -> UIView in
-//            return UIView()
-//        }
-        
-//        let e = Example()
-        
-    }
+//        // Using protocols
+//        listView.dataSource = self
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: Using protocols
+    func numberOfItems(in listView: AXAListView) -> Int {
+        return 34
+    }
+    func listView(_ listView: AXAListView, itemForIndex index: Int) -> UIView {
+        return (index % 2 == 0) ? AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemOne") : AXAListViewItem.instatiateFromNib(nibName: "AXAListViewItemTwo")
     }
 
 }

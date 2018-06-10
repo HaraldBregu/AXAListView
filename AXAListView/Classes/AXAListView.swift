@@ -11,17 +11,16 @@ import UIKit
 /* AXAListViewDataSource protocol is used to return to the view
  all data needed to create the list view.
  */
-@objc protocol AXAListViewDataSource: class {
+@available(iOS 9.0, *)
+@objc public protocol AXAListViewDataSource {
     /* Return the number of items that you whant to show in
      the list view.
      */
-    @available(iOS 9.0, *)
-    @objc optional func numberOfItems(in listView: AXAListView) -> Int
+    @objc func numberOfItems(in listView: AXAListView) -> Int
     
     /* Return the view for each index in the list view
      */
-    @available(iOS 9.0, *)
-    @objc optional func listView(_ listView: AXAListView, itemForIndex index:Int) -> UIView
+    @objc func listView(_ listView: AXAListView, itemForIndex index:Int) -> UIView
 }
 
 /* AXAListView is a non-rendering subclass of UIStackView, intended for managing layout of its arrangedSubviews vertically.
@@ -30,13 +29,14 @@ import UIKit
  views in the arrangedSubviews list change their hidden property.
  */
 @available(iOS 9.0, *)
-public class AXAListView: UIStackView {
-    
+@IBDesignable public class AXAListView: UIStackView {
+
     /* Implement and assign dataSource to the view or
      controller where you want to use it. After this
      you have to implement the functions provided.
      */
-    weak var dataSource: AXAListViewDataSource? {
+    @IBInspectable
+    weak public var dataSource: AXAListViewDataSource! {
         didSet {
             reloadData()
         }
@@ -98,7 +98,7 @@ public extension AXAListView {
     /* Read the current number of items in the list.
      */
     public func numberOfItems() -> Int! {
-        guard let numberOfItems = self.dataSource?.numberOfItems!(in: self) else {
+        guard let numberOfItems = self.dataSource?.numberOfItems(in: self) else {
             return 0
         }
         return numberOfItems
@@ -107,7 +107,7 @@ public extension AXAListView {
     /* Read the view in the list at index that you want.
      */
     public func listView(_ listView: AXAListView, itemForIndex index: Int) -> UIView! {
-        guard let item = self.dataSource?.listView!(listView, itemForIndex: index) else {
+        guard let item = self.dataSource?.listView(listView, itemForIndex: index) else {
             return UIView()
         }
         return item

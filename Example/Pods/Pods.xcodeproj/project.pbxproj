@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1368044642AD73AFF478F659EF376A61 /* AXAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990FEAB136DB71C3011C012CF0C90984 /* AXAListView.swift */; };
-		345CA8AC27FE725B75420E477CE1B14A /* HBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB7DE21F65974832B7A1D5D7E89FCBD /* HBView.swift */; };
 		4B11062D288B1FCAD0195783BD0353E7 /* AXAListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 125188B0C6DA8EAE8C83870AA01E2D84 /* AXAListView-dummy.m */; };
 		6692B705CAE19C56604FC33CD71E3AA9 /* AXAListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C395645E269D56251DCBFA7411BA7DE7 /* AXAListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		709C1FFCEC6F5C6E5C3938FC9BF7E500 /* Pods-AXAListView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F9BE4486233987BFBFAA93DDC88C74 /* Pods-AXAListView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AE35645C11C85C762D49BFB4680FC1F /* AxaTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE10A99C0F358DE7E0C2214C51A20B90 /* AxaTester.swift */; };
 		87F4C215A9398D6298D840223DE351D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		8AFF290BBF69C2B785E46490A2DE2464 /* Pods-AXAListView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9835E07F05A4841D556573DAA23A2486 /* Pods-AXAListView_Tests-dummy.m */; };
 		A4E7B8D21DE4C958A4CDECAC035BAD2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		A968D75920CC85BD00795CA3 /* AXAListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A968D75820CC85BD00795CA3 /* AXAListView.swift */; };
 		BE9AEBFCF83CAAB9D68E191927431DF3 /* Pods-AXAListView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F675012FFE01FC612070F43F4FB91 /* Pods-AXAListView_Example-dummy.m */; };
 		C811BA5E9CD5B1C5E390BC00EB9F88A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		CE798A8CDC7729A12497AEA9E967CC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
@@ -44,10 +42,10 @@
 		0E7F675012FFE01FC612070F43F4FB91 /* Pods-AXAListView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXAListView_Example-dummy.m"; sourceTree = "<group>"; };
 		0FA6E79798F0D8763B40A6F3C034BEDA /* Pods-AXAListView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXAListView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		125188B0C6DA8EAE8C83870AA01E2D84 /* AXAListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXAListView-dummy.m"; sourceTree = "<group>"; };
-		12FA9F0A41A9C05102FC4969378D1DE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		12FA9F0A41A9C05102FC4969378D1DE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		166E1B1834BC5A6B7F21901BF4DEDD61 /* Pods-AXAListView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXAListView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1A77FF5182C08E3DE10E9FC9C8404359 /* Pods-AXAListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXAListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3194399A6F4EB8DAD3ED7BEF439EB2CA /* Pods_AXAListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AXAListView_Example.framework; path = "Pods-AXAListView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3194399A6F4EB8DAD3ED7BEF439EB2CA /* Pods_AXAListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXAListView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1BC64BF962BA0BCB962DE103694B48 /* AXAListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXAListView-prefix.pch"; sourceTree = "<group>"; };
 		3ED2E905AB9534CAC3D8971B7E5A4EBF /* Pods-AXAListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXAListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5035084F601FD9E97E061BA7351DB5C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,26 +56,24 @@
 		6DC9427B072784644639924FC1861CD4 /* Pods-AXAListView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXAListView_Tests-resources.sh"; sourceTree = "<group>"; };
 		71C41E9362FF78769E6F3018C6E82B1A /* Pods-AXAListView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXAListView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		789A6423B7E1DA34565DFA707AD7A482 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E1824787B75A061829B559F149F2714 /* AXAListView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AXAListView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E1824787B75A061829B559F149F2714 /* AXAListView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AXAListView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E81AEFE1FA33559256B47063DDBD386 /* Pods-AXAListView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXAListView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F47A21A75B8175303759441CA6BCFBB /* Pods-AXAListView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXAListView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9835E07F05A4841D556573DAA23A2486 /* Pods-AXAListView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXAListView_Tests-dummy.m"; sourceTree = "<group>"; };
-		990FEAB136DB71C3011C012CF0C90984 /* AXAListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXAListView.swift; path = AXAListView/Classes/AXAListView.swift; sourceTree = "<group>"; };
 		A071721CDBC829DD095B5322C3926B4C /* AXAListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXAListView.xcconfig; sourceTree = "<group>"; };
+		A968D75820CC85BD00795CA3 /* AXAListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AXAListView.swift; path = AXAListView/Classes/AXAListView.swift; sourceTree = "<group>"; };
 		B1F9BE4486233987BFBFAA93DDC88C74 /* Pods-AXAListView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXAListView_Example-umbrella.h"; sourceTree = "<group>"; };
-		B572481B4B59A0D3059593F59D6B3425 /* Pods_AXAListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AXAListView_Tests.framework; path = "Pods-AXAListView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B572481B4B59A0D3059593F59D6B3425 /* Pods_AXAListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXAListView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B660F0F516CBE95ED1E8720496BE00C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE3F96E83FEAB6AF809916854B661934 /* Pods-AXAListView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXAListView_Example-resources.sh"; sourceTree = "<group>"; };
 		C395645E269D56251DCBFA7411BA7DE7 /* AXAListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXAListView-umbrella.h"; sourceTree = "<group>"; };
-		CDC247F24FA8A9C9143B171C78445608 /* AXAListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXAListView.framework; path = AXAListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D74126EFAC243339B95D11FD870BEA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CDC247F24FA8A9C9143B171C78445608 /* AXAListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AXAListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74126EFAC243339B95D11FD870BEA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E57C7FE09B92BDA4EEEF3C70F879FA54 /* Pods-AXAListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXAListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EE10A99C0F358DE7E0C2214C51A20B90 /* AxaTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxaTester.swift; path = AXAListView/Classes/AxaTester.swift; sourceTree = "<group>"; };
 		F6F546187132D24AD01CF525FC0F4F40 /* Pods-AXAListView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXAListView_Example.modulemap"; sourceTree = "<group>"; };
-		FCB7DE21F65974832B7A1D5D7E89FCBD /* HBView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HBView.swift; path = AXAListView/Classes/HBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +143,7 @@
 		3B0B4C5E6F6E9034EED3B2FF2AD660F1 /* AXAListView */ = {
 			isa = PBXGroup;
 			children = (
-				990FEAB136DB71C3011C012CF0C90984 /* AXAListView.swift */,
-				EE10A99C0F358DE7E0C2214C51A20B90 /* AxaTester.swift */,
-				FCB7DE21F65974832B7A1D5D7E89FCBD /* HBView.swift */,
+				A968D75820CC85BD00795CA3 /* AXAListView.swift */,
 				F09838C5FA2634299660EC0172EEBA36 /* Pod */,
 				EE4CC231C31A0F30A349704233425929 /* Support Files */,
 			);
@@ -362,9 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B11062D288B1FCAD0195783BD0353E7 /* AXAListView-dummy.m in Sources */,
-				1368044642AD73AFF478F659EF376A61 /* AXAListView.swift in Sources */,
-				7AE35645C11C85C762D49BFB4680FC1F /* AxaTester.swift in Sources */,
-				345CA8AC27FE725B75420E477CE1B14A /* HBView.swift in Sources */,
+				A968D75920CC85BD00795CA3 /* AXAListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

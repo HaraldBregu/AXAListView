@@ -17,7 +17,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="j0l-X5-ORg">
-                    <rect key="frame" x="51" y="60" width="610" height="28"/>
+                    <rect key="frame" x="51" y="107" width="610" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="16k-Ku-woI"/>
+                    </constraints>
                     <segments>
                         <segment title="First"/>
                         <segment title="Second"/>
@@ -27,9 +30,9 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="j0l-X5-ORg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="51" id="QVL-OX-laq"/>
-                <constraint firstItem="j0l-X5-ORg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="bNY-ez-xAO"/>
+                <constraint firstItem="j0l-X5-ORg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="top" constant="60" id="bNY-ez-xAO"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="j0l-X5-ORg" secondAttribute="trailing" constant="43" id="pFa-2I-vN0"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="j0l-X5-ORg" secondAttribute="bottom" constant="90" id="x8A-No-RbJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="j0l-X5-ORg" secondAttribute="bottom" constant="20" id="x8A-No-RbJ"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

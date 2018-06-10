@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-AXAListView is an object that inherit UIStackView. You only have to install it once and 
+AXAListView is an object that inherit UIStackView. You only have to install it once and use it as a list view programmatically with datasource protocol or closures.
                        DESC
 
   s.homepage         = 'https://github.com/HaraldBregu/AXAListView'

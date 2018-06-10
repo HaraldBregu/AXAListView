@@ -1,9 +1,13 @@
 # AXAListView
 
+![Supported Platforms](https://img.shields.io/cocoapods/p/AXAListView.svg) 
 [![Version](https://img.shields.io/cocoapods/v/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
+[![Releases](https://img.shields.io/github/release/haraldbregu/AXAListView.svg)](https://github.com/haraldbregu/AXAListView/releases) 
+[![Latest pod release](https://img.shields.io/cocoapods/v/AXAListView.svg)](http://cocoapods.org/pods/axalistview)
+[![Build Status](https://api.travis-ci.org/haraldbregu/AXAListView.svg?branch=master)](https://travis-ci.org/haraldbregu/AXAListView) 
 [![License](https://img.shields.io/cocoapods/l/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
 [![Platform](https://img.shields.io/cocoapods/p/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
-[![Twitter](https://img.shields.io/badge/Twitter-@Ramotion-blue.svg?style=flat)](https://twitter.com/HaraldBregu)
+[![Twitter](https://img.shields.io/badge/Twitter-@HaraldBregu-blue.svg?style=flat)](https://twitter.com/HaraldBregu)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/haraldbregu)
 
 

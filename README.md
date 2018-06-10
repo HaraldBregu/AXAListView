@@ -1,11 +1,8 @@
 # AXAListView
 
-[![CI Status](https://img.shields.io/travis/AldoOS/AXAListView.svg?style=flat)](https://travis-ci.org/AldoOS/AXAListView)
 [![Version](https://img.shields.io/cocoapods/v/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
 [![License](https://img.shields.io/cocoapods/l/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
 [![Platform](https://img.shields.io/cocoapods/p/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
-
-# navigation-stack
 [![Twitter](https://img.shields.io/badge/Twitter-@Ramotion-blue.svg?style=flat)](https://twitter.com/HaraldBregu)
 [![CocoaPods](https://img.shields.io/cocoapods/v/AXAListView.svg)](https://cocoapods.org/pods/AXAListView)
 [![CocoaPods](https://img.shields.io/cocoapods/v/AXAListView.svg)](https://cocoapods.org/pods/AXAListView)

@@ -1,12 +1,12 @@
 # AXAListView
 
-![Supported Platforms](https://img.shields.io/cocoapods/p/AXAListView.svg) 
+![Supported Platforms](https://img.shields.io/cocoapods/p/AXAListView.svg)
+[![License](https://img.shields.io/cocoapods/l/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
 [![Releases](https://img.shields.io/github/release/haraldbregu/AXAListView.svg)](https://github.com/haraldbregu/AXAListView/releases) 
 [![Latest pod release](https://img.shields.io/cocoapods/v/AXAListView.svg)](http://cocoapods.org/pods/axalistview)
 [![Build Status](https://api.travis-ci.org/haraldbregu/AXAListView.svg?branch=master)](https://travis-ci.org/haraldbregu/AXAListView) 
 [![Twitter](https://img.shields.io/badge/Twitter-@HaraldBregu-blue.svg?style=flat)](https://twitter.com/HaraldBregu)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/haraldbregu)
-[![License](https://img.shields.io/cocoapods/l/AXAListView.svg?style=flat)](https://cocoapods.org/pods/AXAListView)
 
 
 ## About
